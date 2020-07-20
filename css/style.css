@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* #fcfefe, #f76b8a, #eaf6f6, #66bfbf    */
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+/* Utility classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: #6b052e;
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.py-1 { padding: 1.5rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
+
+.btn {
+    display: inline-block;
+    color: #eaf6f6;
+    background: #f76b8a;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #6b052e;
+}
+
+.btn-dark {
+    display: inline-block;
+    background: #6b052e;
+    color: #eaf6f6;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn-dark:hover {
+    background: #f76b8a;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #fcfefe;
+    color: #66bfbf;
+    justify-content: space-evenly;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar a img {
+    width: 40%;
+    height: auto;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #6b052e;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: #f76b8a;
+    border-radius: 5px;
+}
+
+#donation {
+    display: inline-block;
+}
+
+#donation i {
+    color: #6b052e;
+}
+
+#donation span {
+    background: #f76b8a;
+    color: #6b052e;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#donation span:hover {
+    background: #6b052e;
+    color: #fcfefe;
+    border-radius: 5px;
+}
+
+/* Showcase */
+#showcase {
+    background: #333 url(../img/children-hands.jpg) no-repeat center center/cover;
+    background-position: center;
+    height: 100vh;
+    color: #fcfefe;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 2rem;
+    /* Overlay */
+    position: absolute;
+    top: 116.797px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* Section: Intervention */
+#what .items {
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+}
+
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i {
+    background: #6b052e;
+    color: #eaf6f6;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}

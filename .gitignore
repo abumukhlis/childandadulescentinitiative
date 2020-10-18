@@ -1,0 +1,5 @@
+#npm dependencies
+npm_modules
+
+#cache files
+.cache

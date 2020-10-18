@@ -1,0 +1,25 @@
+{
+  "name": "childandadulescentinitiative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abumukhlis/childandadulescentinitiative.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abumukhlis/childandadulescentinitiative/issues"
+  },
+  "homepage": "https://github.com/abumukhlis/childandadulescentinitiative#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.4"
+  }
+}

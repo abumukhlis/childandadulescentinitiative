@@ -1,1 +1,1 @@
-# childandadolescentinitiative is a non-governmental organization whose objective is building a future where children and young persons’ enjoy the highest attainable standard of health and general wellbeing.
+# Child & Adolescent Initiative is a non-governmental organization whose objective is building a future where children and young persons’ enjoy the highest attainable standard of health and general wellbeing.
